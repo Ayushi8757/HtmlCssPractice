@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+nav{
+    background-color: beige;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+  
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+.parallex{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:center;
+    background-attachment: fixed;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08080877;
+}
+.parallex-1{
+    background-image: url("https://www.holidify.com/images/bgImages/BIHAR.jpg");
+}
+ div h2{
+    color: white;
+    font-size: 40px;
+}
+div h3{
+    color: white;
+    font-size: 30px;
+}
+.content{
+    padding: 40px;
+}
+.parallex-2{
+    background-image: url("https://www.holidify.com/images/bgImages/BODH-GAYA.jpg");
+}
+.parallex-3{
+    background-image: url("https://dainikkhojkhabar.live/wp-content/uploads/2019/12/IMG-20191205-WA0008-1.jpg");
+}
+.parallex-4{
+    background-image: url("https://www.holidify.com/images/compressed/627.jpg?v=1.1");
+}
+.parallex-5{
+    background-image: url("https://www.holidify.com/images/compressed/2575.jpg?v=1.1");
+}
